@@ -1,9 +1,7 @@
-# -*- coding: utf-8 -*-
 
-# Queue
-===
+# Data Structure
 
-## Queue (FIFO) first-in firt-out
+### `Queue` (FIFO) first-in firt-out
 
 |**Method**|**Discription**|
 |--|--|
