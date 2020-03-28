@@ -1,5 +1,5 @@
 
-# Data Structure
+# <img src='https://hackr.io/tutorials/learn-data-structures-algorithms/logo/logo-data-structures-algorithms?ver=1550834269' height='50' width='50'> <a style="font-size:50px" >Data Structure</a>
 
 ### **1.** `Queue` (FIFO) first-in firt-out
 
@@ -17,5 +17,9 @@
 |   `count`| get total element count in queue|
 |   `index`| get index element in queue|
 |   `clear`| clear or remove all element from queue|
+```python
+from data_structure import queue
 
+class
+```
 

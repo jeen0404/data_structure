@@ -37,25 +37,9 @@ Queue
 from typing import overload
 from enum import Enum 
 
-
-"""
-Enum for queue type
-+============================================+
-|   type    |  discription                   |
-|___________|________________________________|
-|           | front and reare both will move |
-|  Dynamic  | accourding to opration         |
-|___________|________________________________|
-|           | front will remain zero and     |
-|   Static  | move accourding to opration    |
-|___________|________________________________|
-
-"""
 QueueType = Enum('Static','Dynamic')
 
 """
-
-
 Queue
 """
 import queue 
@@ -68,7 +52,6 @@ class Queue(object):
         __type :  QueueType enum var 
         __front : front index of queue
         __rear : reare index of queue
-
         """
         assert type(queue)==list,"queue should be type of  list"
         self.__queue: list = []
@@ -106,4 +89,17 @@ class Queue(object):
     def __str__(self):
         return self.__queue
 
+"""
+Enum for queue type
++============================================+
+|   type    |  discription                   |
+|___________|________________________________|
+|           | front and reare both will move |
+|  Dynamic  | accourding to opration         |
+|___________|________________________________|
+|           | front will remain zero and     |
+|   Static  | move accourding to opration    |
+|___________|________________________________|
+
+"""
     
