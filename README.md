@@ -1,7 +1,7 @@
 
 # Data Structure
 
-### `Queue` (FIFO) first-in firt-out
+### **1.** `Queue` (FIFO) first-in firt-out
 
 |**Method**|**Discription**|
 |--|--|
