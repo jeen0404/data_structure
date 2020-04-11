@@ -43,7 +43,7 @@ print(base_queue())
 ```
     []
 ```python
-base_queue.enqueue(30) #will raise error as an queuq size is only two and third element can't be pushed
+base_queue.base_queue() #will raise error as an queue size is only two and third element can't be pushed
 ```
   AssertionError: Queue is empty
 
