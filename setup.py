@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="data_structure", # Replace with your own username
+    name="data_structure",  # Replace with your own username
     version="0.0.1",
     author="jivan patel",
     author_email="jp.dev.algo@gmail.com",
@@ -19,5 +19,4 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
-    
 )
